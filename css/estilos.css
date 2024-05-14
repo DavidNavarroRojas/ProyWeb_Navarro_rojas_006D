@@ -39,3 +39,26 @@ p{
 .modal-body{
     text-align: justify;
 }
+
+.comentarios-container {
+    margin-top: 20px;
+}
+.comentarios-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.comentarios-table {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.comentarios-table th {
+    background-color: #343a40;
+    color: white;
+}
+.comentarios-table td {
+    padding: 15px;
+}
+.comentarios-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
